@@ -1,0 +1,15 @@
+@import 'colors.scss';
+.btn{
+    padding: 10px 20px;
+    width: 240px;
+
+    font-weight: 700;
+    font-size: 16px;
+
+    border: none;
+    border-radius: 10px;
+
+    color: $white-color;
+
+    background-image: linear-gradient(to left,$primary-color,$blue-2,$secondary-color);
+}
