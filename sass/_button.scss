@@ -13,3 +13,20 @@
 
     background-image: linear-gradient(to left,$primary-color,$blue-2,$secondary-color);
 }
+
+.btn-midle{
+    padding: 15px 20px;
+    max-width: 350px;
+
+    margin-top: -20px;
+
+    font-weight: 700;
+    font-size: 16px;
+
+    border: none;
+    border-radius: 10px;
+
+    color: $white-color;
+
+    background-image: linear-gradient(to left,$primary-color,$blue-2,$secondary-color);
+}
