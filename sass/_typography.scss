@@ -8,7 +8,11 @@ h2{
     color: $white-color;
 }
 h3{
-    font-size: 32px;
+    font-size: 18px;
+    color: $white-color;
+    text-decoration:line-through;
+    text-decoration-color: $primary-color;
+    text-decoration-thickness: 3px;
 }
 h4{
     font-size: 24px;

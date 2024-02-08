@@ -1,0 +1,28 @@
+.accordion-content{
+    overflow: hidden;
+    height: 0px;
+    transition: 0.8s ease-in;
+    text-align: start;
+    padding-top: 8px;
+    
+}
+.accordion{
+    max-width: 700px;
+}
+.accordion-button{
+    margin-top: 20px;
+    button{
+        background-color: #0e0e0e70;
+        padding: 10px 10px;
+        text-align: start;
+        width: 100%;
+
+        border-width: 1px;
+        border-style: solid;
+        border-image: linear-gradient(to left, $primary-color, #00d5ff00) 1;
+    }
+    
+}
+.icon{
+    transform: 0.8s ease ;
+}

@@ -2,7 +2,7 @@
 
 *{
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
     font-family: 'Inika', serif;
 }   
 .border{
@@ -92,4 +92,67 @@ body{
         max-width: 350px;
         line-height: 24px;
     }
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    .box-offer{
+        background-color: #222222;
+        border-radius: 10px;
+        text-align: center;
+        .items{
+            display: flex;
+            flex-direction: column;
+            max-width: 80%;
+            padding-bottom: 16px;
+            .item{
+                width: 100%;
+                display: flex;
+
+                padding-bottom: 8px;    
+                
+                img{
+                    margin-left: 0px;
+                }
+                p{
+                    margin-left: 0px;
+                }
+
+            }
+        }
+        .cursos{
+            margin-top: -80px;
+        }
+    }
+}
+.box-garantia{
+    width: 100%;
+    height: 380px;
+    
+    background-image: linear-gradient(to right,#141414e1,$bg-color);
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .selo-text{
+        max-width: 500px;
+        line-height: 24px;
+    }
+}
+hr{
+    width: 50%;
+    height: 2px;
+    border: none;
+    background-image: linear-gradient(to right,$primary-color, #00d5ff60);
+}
+footer{
+    text-align: center;
+    background-image:url(../img/bg-ultima.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

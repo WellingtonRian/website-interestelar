@@ -45,3 +45,7 @@
 
     background-image: linear-gradient(to left,$primary-color,$blue-2,$secondary-color);
 }
+.btn-accordion{
+    display: flex;
+    justify-content: space-between;
+}
